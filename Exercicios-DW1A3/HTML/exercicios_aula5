@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Exercício Aula 5</title>
+  </head>
+  <body>
+    <p>Exercícios referentes a aula de 25 de Agosto de 2020</p>
+    <h2>Exercício 1 - Tabela</h2>
+      <div id="tab1">
+	<table>
+	  <tr>
+	    <th scope="col">Noturno</th>
+	    <th scope="col">DOMINGO</th>
+	    <th scope="col">SEGUNDA</th>
+	    <th scope="col">TERÇA</th>
+            <th scope="col">QUARTA</th>
+	    <th scope="col">QUINTA</th>
+	    <th scope="col">SEXTA</th>
+	    <th scope="col">SÁBADO</th>
+	  </tr>
+	  <tr>
+	    <th scope="col">18:50 - 19:35</th>
+	    <th></th>
+	    <th rowspan="3">Desenvolvimento Web I</th>
+	    <th rowspan="3">Engenharia de Software III</th>
+            <th rowspan="3">Linguagem de Programação I</th>
+	    <th rowspan="3">Bancos de Dados II</th>
+	    <th rowspan="3">Redes de Computadores</th>
+	    <th></th>
+	  </tr>
+	  <tr>
+	    <th scope="col">19:35 - 20:20</th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+	  <tr>
+	    <th scope="col">20:20 - 21:05</th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+	  <tr>
+	    <th scope="col">21:05 - 21:20</th>
+	    <th></th>
+	    <th colspan="5">Intervalo</th>
+	    <th></th>
+	  </tr>
+	  <tr>
+	    <th scope="col">21:20 - 22:05</th>
+	    <th></th>
+	    <th rowspan="2">Estatística e Probabilidade</th>
+	    <th rowspan="2">Engenharia de Software III</th>
+	    <th rowspan="2">Linguagem de Programação I</th>
+	    <th rowspan="2">Bancos de Dados II</th>
+	    <th rowspan="2">Segurança da Informação</th>
+	    <th></th>
+	  </tr>
+	  <tr>
+	    <th scope="col">22:05 - 22:50</th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+	</table>
+      </div>
+      <div id="form1">
+        <h2>Exercício 2 - Formulário</h2>
+	<form action="http://www.example.com/subscribe.php">
+	  <fieldset>
+	    <legend>Dados Pessoais</legend>
+	    <p>Nome Completo
+              <input type="text" name="username" size="40" maxlength="50"/>     
+	    </p>
+	    <p>
+	      <label for="username">E-mail</label>
+              <input type="email" name="depart"/>
+            </p>
+            <p>
+	      <label for="username">Data de nascimento</label>
+              <input type="date" name="depart"/>
+	    </p>
+	    <p>
+              <br/>
+              Gênero:
+              <input id="female" type="radio" name="gender" value="f">
+              <label for="female">Feminino</label>
+              <input id="male" type="radio" name="gender" value="m">
+              <label for="male">Masculino</label>
+ 	    </p>
+	    <p>Envie uma foto 3x4 digitalizada para confecção do crachá:</p>
+            <input type="file" name="user_picture"/>
+            <br>
+	  </fieldset>
+          <fieldset>
+	    <legend>Dados Acadêmicos</legend>
+	    <p>Selecione o período do curso:
+	    <br>
+            <input type="radio" name="genre" value="matutino"/>Matutino
+            <input type="radio" name="genre" value="vespertino"/>Vespertino
+            <input type="radio" name="genre" value="noturno" checked="checked"/>Noturno
+            <input type="radio" name="genre" value="integral"/>Integral
+	    <p>Selecione o curso: </p>
+	    <select name="cursos">
+	      <option value="tads">Tecnologia em Análise e desenvolvimento de Sistema</option>
+              <option value="tse">Tecnologia em Sistemas Elétricos</option>
+              <option value="geo">Licenciatura em Geografia</option>
+              <option value="hist">Licenciatura em História</option>
+              <option value="port">Licenciatura em Língua Portuguesa</option>
+              <option value="quimica">Bacharelado em Química</option>
+            </select>
+            <p>Selecione a(s) a(s) palestra(s) que tem interesse em assistir:
+              <br>
+              <input type="checkbox" name="service" value="hist_univ" checked="checked"/>A História da Universidade <br>
+              <input type="checkbox" name="service" value="art_pen"/>Arte em tempos de Pandemia <br>
+              <input type="checkbox" name="service" value="tec_edu"/>Tecnologias na Educação
+            </p>
+          </fieldset>
+	  <fieldset>
+            <legend>Informações Gerais</legend>
+	    <p>Senha do portal acadêmico
+	    <input type="password" name="password" size="15" maxlength="30"/>
+            </p>
+	    <p>Descreva brevemente por que escolheu a(s) palestra(s) que marcou:</p>
+	    <textarea name="comments" cols="60" rows="4"></textarea>
+
+	  </fieldset>
+	  <input type="submit" name="subscribe" value="Inscrever-se"/>
+	</form>
+      </div>
+  </body>
+</html>
