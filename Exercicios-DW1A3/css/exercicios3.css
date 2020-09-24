@@ -1,0 +1,155 @@
+table.tab
+{
+    border-collapse: collapse;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+table.tab tr th
+{
+    background-color: silver;
+    border: 1px solid black;
+}
+
+table.tab tr td
+{
+    border: 1px solid black;
+}
+
+table.tab tr:nth-child(odd)
+{
+    background-color: rgba(248, 248, 248, 0.873);
+}
+/*
+img{
+    height: 370px;
+    border: black solid 3px;
+    position: absolute;
+
+    right: 20px;
+    
+}
+*/
+.textoInterno
+{
+    text-align: justify;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(64, 64, 177);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.divPrincipal{
+    background-color: rgba(255, 255, 255, 0.788);
+    margin-top: 5px;
+    margin-right: 0px;
+    border: 3px solid rgb(0, 77, 0);
+    padding: 0px;
+    height: 700px;
+}
+
+h1{
+    background-color: rgb(0, 77, 0);
+    height: 140px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    color: blue;
+    text-shadow: 2px 2px white;
+}
+
+.titulosDivs
+{
+    background-color: silver;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+a:visited
+{
+    color: blueviolet;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+div.divInternaEsquerda
+{
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 30px;
+    width: 60%;
+}
+/*
+div.divInternaDireita
+{
+    border: 2px solid black;
+    position: absolute;
+    right: 30px;
+    width: 40%;
+}*/
+
+.fig1
+{
+    height: 500px;
+
+}
+
+.div_imagem
+{
+    position: absolute;
+    right: 62px;
+}
+
+p
+{
+    text-indent: 20px;
+}
+
+#img2
+{
+    height: 400px;
+}
+
+.div_imagem2
+{
+    position: absolute;
+    right: 62px;
+}
+
+.divInternaEsquerda2
+{
+    position: absolute;
+    left: 30px;
+    width: 50%;
+}
+
+#img3
+{
+    height: 430px;
+}
+
+.div_imagem3
+{
+    position: absolute;
+    right: 62px;
+}
+
+.divInternaEsquerda3
+{
+    position: absolute;
+    left: 30px;
+    width: 40%;
+}
