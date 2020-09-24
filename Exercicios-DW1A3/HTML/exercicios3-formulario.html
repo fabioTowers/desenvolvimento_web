@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="exercicios3-formulario.css" type="text/css">
+</head>
+<body>
+    <section id="contato">
+        <div class="container" id="containerContato">
+            <div class="tituloPagina">
+                <h1 id="contato" class="titulos">Contato</h1>
+            </div>
+            <div id="faleConosco" class="legenda">
+                <p id="faleConoscoTexto">Fale conosco, é só preencher as informações abaixo:</p>
+            </div>
+            <form action="?" method="GET">
+                <fieldset>
+                    <div id="campoNome" class="campos">
+                        <input id="nome" type="text" name="nome" placeholder="Nome *" required>
+                        <br>
+                        <input id="email" type="email" name="email" placeholder="E-mail *" required>
+                        <input id="tel" type="tel" name="telefone" placeholder="Telefone *" pattern="[0-9]{2}[0-9]{5}[0-9]{4}" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div id="mensagem">
+                        <textarea name="mensagem" placeholder="Mensagem * (máximo 470 caracteres)" maxlength="470" required></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" value="Enviar!">
+                    <input type="reset" value="Limpar os dados">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
