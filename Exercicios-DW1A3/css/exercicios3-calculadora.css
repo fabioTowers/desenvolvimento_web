@@ -1,0 +1,128 @@
+.layout
+{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas:
+        "tela tela tela tela"
+        "ac porcent multip divi"
+        "sete oito nove igual"
+        "quatro cinco seis menos"
+        "um dois tres mais"
+        "zero zero ponto mais";
+    grid-template-rows: 20vh 10vh 10vh 10vh 10vh 10vh;
+    padding: 2rem;
+}
+
+.elem
+{
+    border-radius: 10px;
+}
+
+.tela
+{
+    grid-area: tela;
+    text-align: right;
+    font-size: 6.5rem;
+    line-height: 2;
+    padding-right: 20px;
+    background-color: rgb(6, 207, 22);
+}
+
+.tecla
+{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: silver;
+}
+
+.ac
+{
+    grid-area: ac;
+}
+
+.porcent
+{
+    grid-area: porcent;
+}
+
+.multip
+{
+    grid-area: multip;
+}
+
+.divi
+{
+    grid-area: divi;
+}
+
+.sete
+{
+    grid-area: sete;
+}
+
+.oito
+{
+    grid-area: oito;
+}
+
+.nove
+{
+    grid-area: nove;
+}
+
+.igual
+{
+    grid-area: igual;
+}
+
+.quatro
+{
+    grid-area: quatro;
+}
+
+.cinco
+{
+    grid-area: cinco;
+}
+
+.seis
+{
+    grid-area: seis;
+}
+
+.menos
+{
+    grid-area: menos;
+}
+
+.um
+{
+    grid-area: um;
+}
+
+.dois
+{
+    grid-area: dois;
+}
+
+.tres
+{
+    grid-area: tres;
+}
+
+.mais
+{
+    grid-area: mais;
+}
+
+.zero
+{
+    grid-area: zero;
+}
+
+.ponto
+{
+    grid-area: ponto;
+}
